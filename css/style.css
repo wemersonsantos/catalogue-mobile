@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.subInfo, .dateNow{
+    font-size: 0.80rem;
+    margin-top: 10px;
+    font-family: 'Crimson Text', serif;
+}
+
+#title{
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    text-align: center;
+}
+
+section .img-thumbnail{
+    max-width: 100px;
+}
+
