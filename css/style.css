@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
+body{
+    background-color: #F7E9E4;
+}
+
+header{
+    margin-bottom: 2rem;
+}
+
 .subInfo, .dateNow{
     font-size: 0.80rem;
     margin-top: 10px;
@@ -15,5 +23,15 @@
 
 section .img-thumbnail{
     max-width: 100px;
+    border: none;
+}
+
+section .list-group-item{
+    border: none;
+    background-color: #F7E9E4;
+}
+
+section #prodList, .prodTitle, .description , .price{
+    font-family: 'Crimson Text', serif;
 }
 
