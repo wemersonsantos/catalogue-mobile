@@ -1,6 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
+
+@media (min-width: 576px) { 
+    header #title{
+        font-size: 13vw;
+    }
+
+    header .subInfo, header .dateNow{
+        font-size: 3.1vw
+    }
+
+    section #prodList{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 768px) { 
+    header #title{
+        font-size: 10vw;
+    }
+
+    header .subInfo, header .dateNow{
+        font-size: 2.7vw
+    }
+}
+
+@media (min-width: 992px) { 
+    header #imgIntro, footer{
+        max-width: 696px;
+    }
+
+    footer{
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) { 
+    header #title{
+        font-size: 7vw;
+    }
+
+    header .subInfo, header .dateNow{
+        font-size: 2.4vw
+    }
+
+    section{
+        height: 1850px;
+    }
+
+    section #scrollProd{
+        overflow-y: visible;
+    }
+}
+
+
+@media (min-width: 1400px) { 
+    
+}
+
 body{
     background-color: #F7E9E4;
 }
@@ -10,14 +68,14 @@ header{
 }
 
 .subInfo, .dateNow{
-    font-size: 0.80rem;
+    font-size: 4.3vw;
     margin-top: 10px;
     font-family: 'Crimson Text', serif;
 }
 
 #title{
     font-family: 'Caveat', cursive;
-    font-size: 4rem;
+    font-size: 18vw;
     text-align: center;
 }
 
